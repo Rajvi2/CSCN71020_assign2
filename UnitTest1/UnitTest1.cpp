@@ -47,7 +47,7 @@ namespace UnitTest1
 
 		TEST_METHOD(TestWidth3)
 		{
-			int input = 0.1;
+			int input = 85;
 			int width = 99;
 			setWidth(input, &width);
 			Assert::AreEqual(input, width);
@@ -61,7 +61,7 @@ namespace UnitTest1
 		}
 		TEST_METHOD(TestLength2)
 		{
-			int input = -1;
+			int input = 25;
 			int length = 97;
 			setLength(input, &length);
 			Assert::AreEqual(input, length);
